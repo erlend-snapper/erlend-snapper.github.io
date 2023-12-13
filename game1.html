@@ -1,0 +1,19 @@
+<html>
+
+Gjett nummer (riktig 123):
+
+<input id="guess"/>
+
+
+<script>
+    let guessInput = document.querySelector("#guess")
+    guessInput.addEventListener("change", function(){
+        if(guessInput.value === "123"){
+            alert("riktig");
+        }
+        else{
+            alert("feil")
+        }
+    })
+</script>
+</html>
